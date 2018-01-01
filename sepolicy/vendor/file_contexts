@@ -27,6 +27,9 @@
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fps:s0
 
+# Hals
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.2-service\.vince-libperfmgr	u:object_r:hal_power_default_exec:s0
+
 # Ir
 /dev/lirc[0-9]*					u:object_r:lirc_device:s0
 /dev/peel_ir					u:object_r:lirc_device:s0

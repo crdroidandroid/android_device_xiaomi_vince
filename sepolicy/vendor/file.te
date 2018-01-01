@@ -15,6 +15,7 @@ type gx_fpd_data_file, file_type, data_file_type, core_data_file_type;
 
 # Power
 type vendor_sysfs_kgsl, fs_type, sysfs_type;
+type sysfs_msm_subsys, sysfs_type, fs_type;
 
 # FPS Info
 type sysfs_fps, sysfs_type, fs_type;
