@@ -6,6 +6,6 @@ sys.fp.goodix					u:object_r:fingerprint_prop:s0
 sys.fp.vendor					u:object_r:fingerprint_prop:s0
 
 # PowerHAL
-vendor.powerhal.audio           u:object_r:power_prop:s0
-vendor.powerhal.init            u:object_r:power_prop:s0
-vendor.powerhal.rendering       u:object_r:power_prop:s0
+vendor.powerhal.audio           u:object_r:vendor_power_prop:s0
+vendor.powerhal.init            u:object_r:vendor_power_prop:s0
+vendor.powerhal.rendering       u:object_r:vendor_power_prop:s0
