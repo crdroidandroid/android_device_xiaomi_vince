@@ -986,6 +986,12 @@ vendor/lib64/libqti-perfd-client.so|7089fa216b06fc78127b51df6cade6518886a463
 vendor/lib64/libqti-perfd.so|7774adf0b57300fc92d38c24676d9d7d9ab04ff2
 vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
 
+# Perf - From LA.UM.8.6.2.r1-08400-89xx.0
+vendor/lib64/libadaptlaunch.so|cf784401fc827e5195d595a6d855ec89ea8c22bf
+vendor/lib64/libappclassifier.so|d5956c2dc9344ddcca0e78d84c393320c2e0cc97
+vendor/lib64/libgameoptfeature.so|b135489d253f0a8d7884238fe7887eb85b87745d 
+vendor/lib64/liblearningmodule.so|a9390d0ef1ec82c97a61035ec686c1d094fdca98
+
 # Perf (configs) - from LA.UM.9.6.2.r1-04200-89xx.0
 vendor/etc/perf/commonresourceconfigs.xml|459a18579580713fd839f93c86d6b1f7f028be1e
 vendor/etc/perf/perfboostsconfig.xml|051a7e61d941a46441e7bfc90208bc671a47bb33
