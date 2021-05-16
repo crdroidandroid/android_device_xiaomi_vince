@@ -18,3 +18,5 @@ allow qti_init_shell sysfs_leds:dir setattr;
 allow qti_init_shell sysfs_leds:file setattr;
 allow qti_init_shell vfat:dir { open read search };
 allow qti_init_shell vfat:file { getattr open read };
+allow qti_init_shell proc_sysctl_autogroup:file w_file_perms;
+allow qti_init_shell proc_sysctl_schedboost:file w_file_perms;
