@@ -19,6 +19,7 @@ type sysfs_msm_subsys, sysfs_type, fs_type;
 type proc_sysctl_autogroup, proc_type, fs_type;
 type proc_sysctl_schedboost, proc_type, fs_type;
 type debugfs_sched_features, debugfs_type, fs_type;
+type proc_sysctl_compaction_proactiveness, proc_type, fs_type;
 
 # FPS Info
 type sysfs_fps, sysfs_type, fs_type;
