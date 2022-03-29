@@ -945,6 +945,9 @@ vendor/lib64/libvpplibrary.so|30e8e7cf1495fb88162beeb65e6273f28563b43b
 # Novatek touchscreen firmware - from vince
 etc/firmware/novatek_ts_fw.bin:vendor/firmware/novatek_ts_fw.bin|12f7299c9148dbacf960bd8d835ddfca8f882a8e
 
+# msm_irqbalance - from LA.UM.8.6.2.r1-08400-89xx.0
+vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
+
 # Pasrmanager - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/lib/vendor.qti.memory.pasrmanager@1.0.so|57701075833781eddea0601251a7fa04f3efc7c8
 vendor/lib/vendor.qti.memory.pasrmanager@1.1.so|233a907ff9e752a4e1537e55a03d802df52bb5b2
@@ -952,29 +955,6 @@ vendor/lib/vendor.qti.power.pasrmanager@1.0.so|b5520550ea7377461dbcd87a578bb0919
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|312e78edd420c0c75f2138eb630018341c8edf69
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|a78d02e872c5d7b81b70ea7001bd4aae1107754e
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so|7fca3c892a7e3c35fb0f3e7d6b9331a93aee3d5c
-
-# Perf - from LA.UM.8.6.2.r1-08400-89xx.0
-vendor/bin/energy-awareness|056792da4f0bcfc34b1f85e3ee67820d8c80627f
-vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
-vendor/bin/hw/vendor.qti.hardware.perf@2.1-service|2e3be88cad2d9b9aa4edc8e68ad5f4d4e7eeaedc
-vendor/etc/init/vendor.qti.hardware.perf@2.1-service.rc|0d7eaa2a99b16738f4e40d7ee7473bb0dd705d2c
-vendor/lib/libperfconfig.so|fff23537940b4849ce805539060e4b75cfc22593
-vendor/lib/libperfgluelayer.so|6ab754c780858b668f8b45c7d222a0bf3d9ecda3
-vendor/lib/libqti-perfd-client.so|99d542254fb5d4dc3fe2f5432c5ac4845995f75b
-vendor/lib/libqti-perfd.so|6cea6ad130191f992ff78a6d1481956698a333fa
-vendor/lib/libqti-util.so|7f1b080e1d5c2e03261b80699232b3153146d215
-vendor/lib64/libperfconfig.so|065fdf48973f68b66b57b54e7be3cc664e97933e
-vendor/lib64/libperfgluelayer.so|152cf86d26137536b7c20ca99d7efec5d1375324
-vendor/lib64/libqti-perfd-client.so|7089fa216b06fc78127b51df6cade6518886a463
-vendor/lib64/libqti-perfd.so|7774adf0b57300fc92d38c24676d9d7d9ab04ff2
-vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
-
-# Perf (configs) - from LA.UM.9.6.2.r1-04200-89xx.0
-vendor/etc/perf/commonresourceconfigs.xml|459a18579580713fd839f93c86d6b1f7f028be1e
-vendor/etc/perf/perfboostsconfig.xml|051a7e61d941a46441e7bfc90208bc671a47bb33
-vendor/etc/perf/perfconfigstore.xml|a63d4af488a30790fb6f8d0cb8b89a33cd7ab5a5
-vendor/etc/perf/targetconfig.xml|aa20c25397df1455206965737f82d44d44430e45
-vendor/etc/perf/targetresourceconfigs.xml|a913faa5efddec9542ef0db3b57a60ddb6bb6e1b
 
 # Peripheral manager - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/pm-proxy|08a2ac87306f772c62e5ef997ab6d021f450f33c

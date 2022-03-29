@@ -246,6 +246,9 @@ on post-fs-data
     mkdir /data/vendor/fm 0770 system system
     chmod 0770 /data/vendor/fm
 
+    # Change lm related dirs
+    mkdir /data/vendor/lm 0700 root root
+    
     # Secure Element directory for loader service functionality
     mkdir /data/vendor/secure_element 0770 secure_element secure_element
 
