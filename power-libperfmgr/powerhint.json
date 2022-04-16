@@ -193,6 +193,15 @@
       "HoldFd": true
     },
     {
+      "Name": "KernelBatterySaver",
+      "Path": "/sys/module/battery_saver/parameters/enabled",
+      "Values": [
+        "Y",
+        "N"
+      ],
+      "ResetOnInit": true
+    },
+    {
       "Name": "PowerHALMainState",
       "Path": "vendor.powerhal.state",
       "Values": [
@@ -345,13 +354,13 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "650000000"
+      "Value": "400000000"
     },
     {
-      "PowerHint": "EXPENSIVE_RENDERING",
-      "Node": "GPUMaxFreq",
+      "PowerHint": "LOW_POWER",
+      "Node": "KernelBatterySaver",
       "Duration": 0,
-      "Value": "650000000"
+      "Value": "Y"
     }
   ]
 }
