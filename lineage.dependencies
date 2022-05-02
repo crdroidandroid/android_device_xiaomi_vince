@@ -10,10 +10,10 @@
       "branch": "elixir-12",
       "remote": "github"
     },
-	  {
-		"repository": "Panchajanya1999/azure-clang",
-		"target_path": "prebuilts/clang/host/linux-x86/clang-15",
-		"branch": "main",
-		"remote": "gitlab"
+    {
+		"repository": "mvaisakh/gcc-arm64",
+		"target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
+		"branch": "gcc-master",
+		"remote": "github"
 	  }
 ]
